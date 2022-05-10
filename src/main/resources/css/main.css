@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    height: 100%; 
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #0e0d0d;
+    height: 55px;
+
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 1px;
+    width: 70%;
+    top: -30px;
+}
+.redes-sociais ul li{
+    margin-top: 16px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais{
+    width: 25%;
+    float: right;
+}
+.header2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 4px;
+}
+.menu-urls {
+    margin-top: 20px;
+    border-bottom: 3px solid #efefef;
+    height: 55px;
+
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 20px;
+    height: 36px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+    color: #00bac6;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: left;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 97%;
+    margin-top: 10px;
+    height: 22px;
+    padding: 13px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 5%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 5%;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 500px;
+}
+li.slick-active button{
+    background: #00bac6;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+.btn-primary{
+    margin: auto;
+    position: absolute;
+    left: 71%;
+}
+
+.form-group{
+    margin: auto;
+    width: 50%;
+}
+
+.form-check{
+    margin: auto;
+}
